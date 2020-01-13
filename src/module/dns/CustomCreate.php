@@ -287,6 +287,7 @@ class CustomCreate extends Window
         $fptype->addOption('2', '2: SHA-256');
         $fptype->addOption('3', '3: ECDSA');
         $fptype->addOption('4', '4: Ed25519');
+        $fptype->addOption('5', '5: xmss');
 
         $fingerprint = new form\FieldText('fingerprint', _('Fingerprint'));
 
